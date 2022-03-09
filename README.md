@@ -1,5 +1,7 @@
 # Ansible-image-and-container-creation-using-latest-git-repo
 
+[![Build](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
 Playbook to insatll Docker and build a simple html application image from a dockerfile and then it pushed to your Docker Hub account.
 
 ## Ansible Modules used
