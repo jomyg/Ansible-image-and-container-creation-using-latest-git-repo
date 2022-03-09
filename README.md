@@ -168,7 +168,9 @@ changed: [172.31.11.210]
 
 PLAY RECAP *************************************************************************************************************************************************************
 172.31.11.210              : ok=11   changed=5    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
-
+```
+```
+After creation on client server. See the contaier is UP and running fine
 [ec2-user@ip-172-31-11-210 ~]$ docker container ls
 CONTAINER ID   IMAGE                   COMMAND            CREATED              STATUS         PORTS                NAMES
 4ae75ac51047   jomyg/flaskone:latest   "python3 app.py"   About a minute ago   Up 3 seconds   0.0.0.0:80->80/tcp   helloworddflaskapp
@@ -220,3 +222,15 @@ skipping: [172.31.11.210]
 PLAY RECAP *************************************************************************************************************************************************************
 172.31.11.210              : ok=7    changed=0    unreachable=0    failed=0    skipped=4    rescued=0    ignored=0
 ```
+<center><img alt="flask-site" src="gaUDXIEwCM.png"> </img></center>
+
+## Conclusion
+
+Ansible playbook docker image push and pull latest using the github repo. If developer do any change on the dockerfile which placed on git. This will recreate the image and container without skipping.
+
+#### ⚙️ Connect with Me
+
+<p align="center">
+<a href="mailto:jomyambattil@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/jomygeorge11"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a> 
+<a href="https://www.instagram.com/therealjomy"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a><br />
